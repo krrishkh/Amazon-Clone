@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:fixed;
+
+}
+.logo-border{
+    height: 50px;
+    width: 150px;
+    border-radius: 1px;
+    margin-left: 20px;
+    
+}
+.logo-border:hover{
+    border: 0.2px solid white;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(/amazon.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+.nav-address{
+    height: 40px;
+    width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.nav-address:hover{
+    border: 0.2px solid white;
+}
+.deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-logo{
+    display:flex;
+    align-items: center;
+}
+.kanpur{
+    font-size: 0.95rem;
+    margin-left: 3px;
+}
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.select{
+    color: black;
+    width: 80px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #E6E6E6;
+}
+.search{
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.search-icon{
+    background-color: #ff9900;
+    border: 0.2px solid black;
+    display: flex;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.languauge{
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.languauge:hover{
+    border-color: 0.2px solid white;
+}
+.flag{
+    background-image: url(/india-flag.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 100%;
+    margin-right: 5px;
+}
+.EN{
+    font-size: 16px;
+}
+.hello{
+    height: 40px;
+    border-radius: 1px;
+    width: 220px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+ 
+}
+.hello:hover{
+    border: 0.2px solid white;
+}
+.krrish{
+    font-size: 14px;
+}
+.account{
+    font-size: 15px;
+}
+.returns{
+    height: 40px;
+    border-radius: 1px;
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+.returns:hover{
+    border: 0.2px solid white;
+}
+.kart{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-sec{
+    padding-top: 60px;
+    height: 39px;
+    width: 100%;
+    color: white;
+    display: flex;
+    background-color: #232f3e;
+}
+.all{
+    display: flex;
+    padding: 5px;
+}
+.nav-sec-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nav-sec-border:hover{
+    border: 0.2px solid white;
+}
+.ad{
+    background-image: url(/ad.png);
+    height: 39px;
+    width: 400px;
+    background-size: cover;
+}
+.pay{
+    font-size: 15px;
+}
+.mini{
+    font-size: 15px;
+}
+.gift{
+    font-size: 15px;
+}
+.buy{
+    font-size: 15px;
+}
+.bussiness{
+    font-size: 15px;
+}
+.browsing{
+    font-size: 15px;
+}
+.krrish-amazon{
+    font-size: 15px;
+}
+.coupon{
+    font-size: 15px;
+}
+.amazon-basics{
+    font-size: 15px;
+}
+
+/*hero section */
+.hero-section{
+    height: 300px;
+    width: 100%;
+    background-image: url(/heroback2.jpg);
+    background-size: cover;
+}
+.section{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 500px;
+    width: 23%;
+    background-color:white;
+
+}
+.box1 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.makeup{
+    height: 70%;
+    width: 70%;
+    background-image: url(/box1.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box1 a{
+    margin-left: 15%;
+    font-size: small;
+    text-decoration: none;
+}
+.box1 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.box2{
+    height: 500px;
+    width: 23%;
+    background-color:white;
+}
+.box2 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.looks{
+    height: 70%;
+    width: 70%;
+    background-image: url(/box2.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.box2 a{
+    margin-left: 15%;
+    font-size: small;
+    text-decoration: none;
+}
+.box2 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.box3{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+}
+.box3 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+
+}
+.dohome{
+    height: 70%;
+    width: 70%;
+    background-image: url(/box3.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.dohome a{
+    margin-left: 15%;
+    font-size: small;
+    text-decoration: none;
+}
+.box3 a{
+    margin-left: 15%;
+    font-size: small;
+    text-decoration: none;
+
+}
+.box3 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.box4{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+}
+.box4 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.gadget{
+    height: 70%;
+    width: 70%;
+    background-image: url(/box4.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.box4 a{
+    margin-left: 15%;
+    font-size: small;
+    text-decoration: none;
+
+}
+.box4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.box5 {
+    width: 23%;
+    height: 500px;
+    background-color: white;
+}
+.box5 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+.headphone{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.headphone div{
+    height: 70%;
+    width: 90%;
+    background-size: cover;
+    background: center;
+}
+.headphone p{
+    font-size: 0.65rem;
+    padding-top: 120%;
+}
+.box5 a{
+    margin-left: 15%;
+    text-decoration: none;
+    font-size: small;
+}
+.box5 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.box6 {
+    width: 23%;
+    height: 500px;
+    background-color: white;
+}
+.box6 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+.styles{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.styles div{
+    height: 70%;
+    width: 90%;
+    background-size: cover;
+    background: center;
+}
+.styles p{
+    font-size: 0.65rem;
+    padding-top: 120%;
+}
+.box6 a{
+    margin-left: 15%;
+    text-decoration: none;
+    font-size: small;
+}
+.box6 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.box7 {
+    width: 23%;
+    height: 500px;
+    background-color: white;
+}
+.box7 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+.appliances{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.appliances div{
+    height: 70%;
+    width: 90%;
+    background-size: cover;
+    background: center;
+}
+.appliances p{
+    font-size: 0.65rem;
+    padding-top: 120%;
+}
+.box7 a{
+    margin-left: 15%;
+    text-decoration: none;
+    font-size: small;
+}
+.box7 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.box8 {
+    width: 23%;
+    height: 500px;
+    background-color: white;
+}
+.box8 h2{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+.women{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.women div{
+    height: 70%;
+    width: 90%;
+    background-size: cover;
+    background: center;
+}
+.women p{
+    font-size: 0.65rem;
+    padding-top: 120%;
+}
+.box8 a{
+    margin-left: 15%;
+    text-decoration: none;
+    font-size: small;
+}
+.box8 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.signin{
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+    border-color: #0F1111;
+    border-radius: 5px;
+}
+.signin p{
+    text-align: center;
+}
+.signin button{
+    margin-left: 39%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #ffc800ea;
+    border: none;
+    border-radius: 5px;
+}
+.backtop{
+    background-color: #232f3e;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backtop a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.contact{
+    height: 350px;
+    background-color: #1a222b;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.contact h4{
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.contact a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.contact p{
+    padding-top: 6px;
+}
